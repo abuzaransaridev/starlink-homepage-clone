@@ -3,404 +3,17 @@
 <html>
 	<head>
 		<title>
-			Starlink
+			Starlink Website Clone
 		</title>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />	
-		<style>
-		
-			body
-			{
-				margin:0px;
-				padding:0px;
-				font-family:Arial, sans-serif;
-				color:white;
-			}
-			
-			.background_image1,
-			.background_image2,
-			.background_image3,
-			.background_image4
-			{
-
-			}
-			
-			.background_image1
-			{
-				background-image:url("https://starlink.com/assets-new/images/landing/field/v4_night_sky.webp");
-				height:140vh;			
-				width:100%;								
-				background-repeat:no-repeat;
-				background-size:cover;
-				background-position:50% 50%;				
-			}
-			nav
-			{
-				padding-top:45px;
-				padding-left:30px;			
-			}
-			.first
-			{
-				display:inline-block;
-				vertical-align:top;					
-			}
-			.second
-			{
-				display:inline-block;
-				vertical-align:top;	
-				float:right;
-			}
-			.nav
-			{
-				text-decoration:none;
-				color:white;
-				margin-right:30px;
-				text-align:center;				
-				font-size:14px;			
-			}
-			.strlink
-			{
-				margin-right:40px;				
-			}
-			.button_area
-			{
-				display:inline-block;
-				vertical-align:top;	
-				height:30px;
-				width:170px;
-				background-color:#4B515B;
-				border-radius:7px;
-				text-align:center;
-				margin-right:30px;
-				
-			}
-			.button_top
-			{
-				color:white;
-				text-decoration:none;				
-				font-size:14px;
-			}
-			.personal
-			{
-				display:inline-block;
-				vertical-align:top;					
-				height:21px;
-				width:80px;
-				background-color:#777C87;
-				border-radius:7px;
-				text-align:center;
-				margin-left:-17px;
-				padding-top:5%;
-				margin-right:10px;
-			}
-			.business
-			{				
-				display:inline-block;
-				vertical-align:top;					
-				padding-top:5px;
-				
-			}
-			.menu_options
-			{
-				display:inline-block;
-				vertical-align:top;					
-				height:28px;
-				width:35px;
-				border-radius:100%;
-				background-color:#3F444F;
-				
-				font-size:20px;
-				text-align:center;
-				padding-top:6px;
-				margin-right:20px;				
-			}
-			.menu_options a{
-				color:#A6A8AD;
-				text-decoration:none;
-			}
-			.discp1
-			{
-				height:330px;
-				width:45%;			
-				margin-left:60px;
-				margin-top:145px;				
-			}
-			.heading1
-			{
-				color:white;
-				font-size:57px;
-			}
-			.heading2,.heading3,.mo
-			{
-				color:#93979C;				
-			}
-			.mo
-			{
-				font-size:24px;			
-			}
-			.button_get
-			{
-				color:black;
-				background-color:white;
-				width:130px;
-				height:35px;
-				border-radius:5px;
-				border:none;
-				margin-right:15px;
-			}			
-			.button_price
-			{
-				color:white;
-				background-color:#2E323A;
-				width:130px;
-				height:35px;
-				border-radius:5px;
-				border:none;
-			}
-			.btns
-			{				
-				margin-top:0px;
-				margin-left:60px;		
-			}
-			.black_background
-			{
-				height:100vh;
-				width:100%;
-				background-color:black;	
-				padding-top:8%;
-			}
-			.main2
-			{
-				height:50px;
-				width:200px;
-				margin-left:42%;
-				
-			}			
-			.button_area2
-			{
-				display:inline-block;
-				vertical-align:top;	
-				height:35px;
-				width:170px;
-				background-color:#2A2A2A;
-				border-radius:7px;
-				text-align:center;	
-			}
-			.button_top2
-			{
-				color:white;
-				text-decoration:none;				
-				font-size:14px;
-			}
-			.athome
-			{
-				display:inline-block;
-				vertical-align:top;					
-				height:25px;
-				width:80px;
-				background-color:#545454;
-				border-radius:7px;
-				text-align:center;
-				margin-left:-17px;
-				padding-top:5%;
-				margin-right:10px;
-			}
-			.onthego
-			{				
-				display:inline-block;
-				vertical-align:top;					
-				padding-top:7px;
-			}	
-			.main3
-			{
-				height:350px;
-				
-			}
-			.box1
-			{
-				background-color:#121212;
-				width:30%;
-				height:350px;
-				display:inline-block;
-				vertical-align:top;				
-				margin-left:35px;
-				border-radius:14px;
-				padding-left:0px;
-			}
-			.nested_box
-			{
-				height:320px;
-				width:90%;
-				padding-left:2%;			
-				margin-left:20px;
-			}
-			.box2
-			{
-				background-color:#121212;
-				width:30%;
-				height:350px;
-				display:inline-block;
-				vertical-align:top;
-				text-align:center;
-				margin-left:15px;
-				border-radius:14px;
-			}			
-			.box3
-			{
-				background-color:#121212;
-				width:30%;
-				height:350px;
-				display:inline-block;
-				vertical-align:top;
-				text-align:center;
-				margin-left:15px;
-				border-radius:14px;
-			}
-		
-			.disc_main
-			{
-				color:#9A9A9A;
-				font-size:14px;
-			}			
-			.list
-			{
-				font-size:16px;
-				color:#9A9A9A;
-			}
-			.disc_main1
-			{
-				color:#9A9A9A;
-				font-weight:bold;
-				font-size:11px;
-			}
-			.bottom_span
-			{
-				margin-top:85px;
-			}			
-			.bottom_span1
-			{
-				margin-top:50px;
-			}
-			.disc_main2
-			{				
-				font-size:40px;
-			}
-			.heading4
-			{
-				color:white;
-				font-size:40px;
-				margin-top:10px;
-			}				
-			.last_p
-			{
-				font-size:14px;
-				color:#9A9A9A;
-				text-align:center;
-			}
-			.background_image2
-			{
-				background-image:url("https://starlink.com/assets-new/images/landing/field/v4_lightning.webp");
-				height:110vh;			
-				width:100%;								
-				background-repeat:no-repeat;
-				background-size:cover;
-				background-position:50% 50%;
-				padding-top:200px;
-			}
-			.discp3
-			{
-				height:330px;
-				width:50%;			
-				margin-left:60px;				
-			}
-			.heading5
-			{
-				font-size:57px;				
-			}
-			.dicp
-			{
-				color:#B7B7B8;
-				font-size:18px;
-			}
-			.background_image3
-			{
-				background-image:url("https://starlink.com/assets-new/images/landing/field/v4_car_on_ice.webp");
-				height:115vh;			
-				width:100%;								
-				background-repeat:no-repeat;
-				background-size:cover;
-				background-position:50% 50%;
-				padding-top:200px;
-			}	
-			
-			.background_image4
-			{
-				background-image:url("https://starlink.com/assets-new/images/landing/field/v4_residential_yard.webp");				
-				height:100vh;			
-				width:100%;								
-				background-repeat:no-repeat;
-				background-size:cover;
-				background-position:50% 50%;
-				padding-top:250px;
-			}			
-			.background_image5
-			{
-				background-image:url("https://starlink.com/assets-new/images/landing/field/v4_germany_alps_roof.webp");				
-				height:140vh;			
-				width:100%;								
-				background-repeat:no-repeat;
-				background-size:cover;
-				background-position:50% 50%;
-				text-align:center;
-			}
-			.main_footer
-			{
-				background-color:black;
-				height:40px;
-				width:100%;
-				padding-top:10px;
-			}
-			.footer1
-			{
-				height:32px;
-				width:95%;
-				margin-left:2.5%;
-				margin-right:2.5%;
-			}
-			.part1
-			{				
-				width:45%;
-				height:25px;
-				padding-top:5px;
-				font-size:12px;
-				color:#a6a5a6;
-				display:inline-block;
-				vertical-align:top;					
-			}
-			.part1_image
-			{
-				width:12px;
-				height:12px;
-			}
-			.part2
-			{
-				display:inline-block;
-				vertical-align:top;
-				width:50%;
-				height:25px;
-				padding-top:5px;
-			}
-			.part2 a{
-				text-decoration:none;
-				color:white;
-				font-size:14px;
-				margin-left:5px;
-			}
-		</style>
-	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />		
+		<link rel="stylesheet" href="starlink.css">	
+		<link rel="icon" href="https://image.telanganatoday.com/wp-content/uploads/2022/05/Starlink-satellite-Internet-gets-approval-in-3-more-countries_V_jpg--442x260-4g.webp?sw=412&dsz=442x260&iw=392&p=false&r=2.625">
 	</head>
 	
 	<body>		
-		<section class="background_image1">
+		<section class="background_image1 background">
 			<nav>
 				<div class="first">
 					<a href="#starlink" class="nav strlink"><img height="20" width="120" src="https://starlink.com/assets/images/logo/logo_white.png"></a>
@@ -411,8 +24,7 @@
 					<div class="button_area">
 						<a href="#Personal" class="button_top">
 							<div class="personal">
-								Personal
-							</div>
+								Personal						
 						</a>
 						<div class="business">
 							<a href="#Business" class="button_top">
@@ -482,13 +94,11 @@
 						</p>					
 						<p class="disc_main">
 							seamless connectivity.
-						</p>
-						<p>							
-							<ul  class="list">
+						</p>						
+							<ul class="list">
 								<li>Unlimited Data</li><p></p>
 								<li>Good Wi-Fi</li>
-							</ul>							
-						</p>
+							</ul>
 						<div class="bottom_span">
 							<p  class="disc_main1">
 								STARTING FROM
@@ -560,11 +170,11 @@
 			</p>
 		</section>
 		
-		<section class="background_image2">
+		<section class="background_image2 background">
 			<div class="discp3">
-				<h1 class="heading5">
-					Reliable and resilient
-				</h1>
+					<h1 class="heading5">
+						Reliable and resilient
+					</h1>
 					<p class="dicp">Extreme weather conditions can cause significant disruptions to</p>
 					<p class="dicp">traditional internet networks. Starlink is engineered to melt snow and</p>
 					<p class="dicp">withstand sleet, heavy rain and harsh winds - keeping you connected with</p>
@@ -575,7 +185,7 @@
 			</div>
 		</section>	
 		
-		<section class="background_image3">
+		<section class="background_image3 background">
 			<div class="discp3">
 				<h1 class="heading5">
 					Internet for travel,<br> road trips and <br> commutes					
@@ -587,10 +197,39 @@
 				</button>				
 			</div>
 		</section>	
-		<section class="black_background">
-			
+		<section class="black_background2">
+			<div class="black_box1">
+				<div class="black_box2">
+					<h1>
+						High-speed internet that works for you
+					</h1>
+				</div>
+			</div>
+			<div class="container">
+					<div class="img_container1">
+						<div class="img_box1">
+							<img class="container_image" src="https://starlink.com/assets-new/images/landing/field/v4_montana_dusk_sky.webp">
+						</div>	
+						<p class="img_discp1">
+							<span class="img_discp2">Home internet in rural and remote areas.</span> Starlink Residential provides high-
+							speed, reliable connectivity even in the most remote areas beyond mobile service
+							reach.						
+						</p>
+					</div>			
+					<div class="img_container1">
+						<div class="img_box1">
+							<img class="container_image" src="https://starlink.com/assets-new/images/landing/field/mini_backpacker_on_mountain.webp">
+						</div>	
+						<p class="img_discp1">
+							<span class="img_discp2">Connect on the go.</span>
+							Use Starlink Roam for travelling, motorhoming, camping,
+							boating and more. Easily navigate, stream and stay connected without dead
+							zones or slow speeds.						
+						</p>
+					</div>	
+			</div>
 		</section>		
-		<section class="background_image4">
+		<section class="background_image4 background">
 			<div class="discp3">
 				<h1 class="heading5">
 					Plug it in. Point at sky.					
@@ -599,26 +238,42 @@
 				<p class="dicp">to get online in minutes.</p>
 				<button class="button_get">
 					Get the App
-				</button>				
+				</button>
 			</div>	
 		</section>		
-		<section class="background_image5">
-			<span>
-				 Abuzar 
-			</span>		
+		<section class="background_image5 background">
+			<div class="last_redom">
+				
+			</div>
+			<div class="last_box1">
+				<div class="last_box2">
+					<div class="last_box3">
+						<h1>
+							Available globally
+						</h1>
+					</div>
+					<div class="last_box4">
+						<p class="last_disc">Delivering reliable connectivity in 160+ countries,territories and other</p>
+						<p class="last_disc">markets around the world.</p>						
+					</div>
+					<button class="button_get">
+						Check availability
+					</button>				
+				</div>				
+			</div>
 		</section>
 		<footer class="main_footer">		
 			<div class="footer1">
 				<div class="part1">					
 					<img class="part1_image" src="https://starlink.com/assets/images/icons/x-logo.svg">
-					<span>Starlink © 2026 Starlink is a division of SpaceX. Visit us at spacex.com</span>
+					<span>Starlink © 2026 Starlink is a division of SpaceX. Visit us at spacex.com| Developed by Abuzar Ansari</span>
 				</div>
 				<div class="part2">
-					<a href="#">Careers</a>
-					<a href="#">Satellite Operators</a>
-					<a href="#">Authorised Resellers</a>					
-					<a href="#">Privacy and legal</a>
-					<a href="#">Privacy preferences</a>       				
+					<a href="#Careers">Careers</a>
+					<a href="#Operators">Satellite Operators</a>
+					<a href="#Resellers">Authorised Resellers</a>					
+					<a href="#legal">Privacy and legal</a>
+					<a href="#preferences">Privacy preferences</a>       				
 				</div>
 			</div>		
 		</footer>

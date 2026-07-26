@@ -1,0 +1,468 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	font-family:Arial, sans-serif;
+	color:white;
+}
+
+.background_image1,
+.background_image2,
+.background_image3,
+.background_image4
+{
+
+}
+
+.background_image1
+{
+	background-image:url("https://starlink.com/assets-new/images/landing/field/v4_night_sky.webp");
+	height:140vh;
+	
+}
+.background
+{
+	width:100%;								
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:50% 50%;			
+}
+nav
+{
+	padding-top:45px;
+	padding-left:30px;			
+}
+.first
+{
+	display:inline-block;
+	vertical-align:top;					
+}
+.second
+{
+	display:inline-block;
+	vertical-align:top;	
+	float:right;
+}
+.nav
+{
+	text-decoration:none;
+	color:white;
+	margin-right:30px;
+	text-align:center;				
+	font-size:14px;			
+}
+.strlink
+{
+	margin-right:40px;				
+}
+.button_area
+{
+	display:inline-block;
+	vertical-align:top;	
+	height:30px;
+	width:170px;
+	background-color:#4B515B;
+	border-radius:7px;
+	text-align:center;
+	margin-right:30px;
+	
+}
+.button_top
+{
+	color:white;
+	text-decoration:none;				
+	font-size:14px;
+}
+.personal
+{
+	display:inline-block;
+	vertical-align:top;					
+	height:21px;
+	width:80px;
+	background-color:#777C87;
+	border-radius:7px;
+	text-align:center;
+	margin-left:-17px;
+	padding-top:5%;
+	margin-right:10px;
+}
+.business
+{				
+	display:inline-block;
+	vertical-align:top;					
+	padding-top:5px;
+	
+}
+.menu_options
+{
+	display:inline-block;
+	vertical-align:top;					
+	height:28px;
+	width:35px;
+	border-radius:100%;
+	background-color:#3F444F;
+	
+	font-size:20px;
+	text-align:center;
+	padding-top:6px;
+	margin-right:20px;				
+}
+.menu_options a{
+	color:#A6A8AD;
+	text-decoration:none;
+}
+.discp1
+{
+	height:330px;
+	width:45%;			
+	margin-left:60px;
+	margin-top:145px;				
+}
+.heading1
+{
+	color:white;
+	font-size:57px;
+}
+.heading2,.heading3,.mo
+{
+	color:#93979C;				
+}
+.mo
+{
+	font-size:24px;			
+}
+.button_get
+{
+	color:black;
+	background-color:white;
+	/* width:130px; */
+	/* height:35px; */
+	padding:10px 30px;
+	border-radius:5px;
+	border:none;
+	margin-right:15px;
+}			
+.button_price
+{
+	color:white;
+	background-color:#2E323A;
+	width:130px;
+	height:35px;
+	border-radius:5px;
+	border:none;
+}
+.btns
+{				
+	margin-top:0px;
+	margin-left:60px;		
+}
+.black_background
+{
+	height:100vh;
+	width:100%;
+	background-color:black;	
+	padding-top:8%;
+}
+.main2
+{
+	height:50px;
+	width:200px;
+	margin-left:42%;
+	
+}			
+.button_area2
+{
+	display:inline-block;
+	vertical-align:top;	
+	height:35px;
+	width:170px;
+	background-color:#2A2A2A;
+	border-radius:7px;
+	text-align:center;	
+}
+.button_top2
+{
+	color:white;
+	text-decoration:none;				
+	font-size:14px;
+}
+.athome
+{
+	display:inline-block;
+	vertical-align:top;					
+	height:25px;
+	width:80px;
+	background-color:#545454;
+	border-radius:7px;
+	text-align:center;
+	margin-left:-17px;
+	padding-top:5%;
+	margin-right:10px;
+}
+.onthego
+{				
+	display:inline-block;
+	vertical-align:top;					
+	padding-top:7px;
+}	
+.main3
+{
+	height:350px;
+	
+}
+.box1
+{
+	background-color:#121212;
+	width:30%;
+	height:350px;
+	display:inline-block;
+	vertical-align:top;				
+	margin-left:35px;
+	border-radius:14px;
+	padding-left:0px;
+}
+.nested_box
+{
+	height:320px;
+	width:90%;
+	padding-left:2%;			
+	margin-left:20px;
+}
+.box2
+{
+	background-color:#121212;
+	width:30%;
+	height:350px;
+	display:inline-block;
+	vertical-align:top;
+	text-align:center;
+	margin-left:15px;
+	border-radius:14px;
+}			
+.box3
+{
+	background-color:#121212;
+	width:30%;
+	height:350px;
+	display:inline-block;
+	vertical-align:top;
+	text-align:center;
+	margin-left:15px;
+	border-radius:14px;
+}
+
+.disc_main
+{
+	color:#9A9A9A;
+	font-size:14px;
+}			
+.list
+{
+	font-size:16px;
+	color:#9A9A9A;
+}
+.disc_main1
+{
+	color:#9A9A9A;
+	font-weight:bold;
+	font-size:11px;
+}
+.bottom_span
+{
+	margin-top:85px;
+}			
+.bottom_span1
+{
+	margin-top:50px;
+}
+.disc_main2
+{				
+	font-size:40px;
+}
+.heading4
+{
+	color:white;
+	font-size:40px;
+	margin-top:10px;
+}				
+.last_p
+{
+	font-size:14px;
+	color:#9A9A9A;
+	text-align:center;
+}
+.background_image2
+{
+	background-image:url("https://starlink.com/assets-new/images/landing/field/v4_lightning.webp");
+	height:110vh;
+	padding-top:200px;
+}
+.discp3
+{
+	height:330px;
+	width:50%;			
+	margin-left:60px;				
+}
+.heading5
+{
+	font-size:57px;				
+}
+.dicp
+{
+	color:#B7B7B8;
+	font-size:18px;
+}
+.background_image3
+{
+	background-image:url("https://starlink.com/assets-new/images/landing/field/v4_car_on_ice.webp");
+	height:115vh;
+	padding-top:200px;
+}	
+
+.background_image4
+{
+	background-image:url("https://starlink.com/assets-new/images/landing/field/v4_residential_yard.webp");				
+	height:100vh;
+	padding-top:250px;
+}
+.black_background2
+{
+	height:140vh;
+	width:100%;
+	background-color:black;		
+}
+.black_box1
+{
+	width:100%;
+	height:178px;
+	padding-top:15px;
+}
+.black_box2
+{
+	width:85%;
+	height:80px;
+	font-size:29px;
+	color:white;
+	margin-left:8%;	
+}
+.container
+{
+	width:100%;
+	height:550px;
+}
+.img_container1
+{
+	width:550px;
+	height:550px;
+	margin-left:65px;
+	display:inline-block;
+	vertical-align:top;
+}
+.img_box1
+{
+	width:100%;
+	height:450px;	
+	border-radius:20px;	
+}
+.container_image
+{
+	width:100%;
+	height:450px;
+	border-radius:20px;	
+    object-fit:cover;
+}
+.img_discp1
+{
+	color:#B7B7B8;
+	width:100%;
+	line-height:25px;
+}
+.img_discp2
+{
+	font-weight:bold;
+	font-size:14px;	
+	color:white;
+}
+.background_image5
+{
+	background-image:url("https://starlink.com/assets-new/images/landing/field/v4_germany_alps_roof.webp");				
+	height:140vh;	
+}
+.last_redom
+{
+	width:100%;
+	height:270px;
+}
+.last_box1
+{
+	width:550px;
+	height:230px;
+	margin-left:600px;
+}
+.last_box2
+{
+	width:100%;
+	height:180px;
+}
+.last_box3
+{
+	width:100%;
+	height:70px;
+	font-size:30px;
+	margin-bottom:-10px;
+}
+.last_box4
+{
+	width:100%;
+	height:80px;
+	margin-bottom:20px;	
+}
+.last_disc
+{
+	color:#B7B7B8;
+	font-size:18px;
+}			
+.main_footer
+{
+	background-color:black;
+	height:40px;
+	width:100%;
+	padding-top:10px;
+}
+.footer1
+{
+	height:32px;
+	width:95%;
+	margin-left:2.5%;
+	margin-right:2.5%;
+}
+.part1
+{				
+	width:47%;
+	height:25px;
+	padding-top:5px;
+	font-size:12px;
+	color:#a6a5a6;
+	display:inline-block;
+
+}
+.part1_image
+{
+	width:12px;
+	height:12px;
+}
+.part2
+{
+	display:inline-block;
+	vertical-align:top;
+	width:48%;
+	height:25px;
+	padding-top:5px;
+	margin-left:55px;
+}
+.part2 a{
+	text-decoration:none;
+	color:white;
+	font-size:14px;
+	margin-left:5px;
+}
