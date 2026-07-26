@@ -5,20 +5,10 @@ body
 	font-family:Arial, sans-serif;
 	color:white;
 }
-
-.background_image1,
-.background_image2,
-.background_image3,
-.background_image4
-{
-
-}
-
 .background_image1
 {
 	background-image:url("https://starlink.com/assets-new/images/landing/field/v4_night_sky.webp");
-	height:140vh;
-	
+	height:140vh;	
 }
 .background
 {
@@ -64,8 +54,7 @@ nav
 	background-color:#4B515B;
 	border-radius:7px;
 	text-align:center;
-	margin-right:30px;
-	
+	margin-right:30px;	
 }
 .button_top
 {
@@ -90,8 +79,7 @@ nav
 {				
 	display:inline-block;
 	vertical-align:top;					
-	padding-top:5px;
-	
+	padding-top:5px;	
 }
 .menu_options
 {
@@ -100,14 +88,14 @@ nav
 	height:28px;
 	width:35px;
 	border-radius:100%;
-	background-color:#3F444F;
-	
+	background-color:#3F444F;	
 	font-size:20px;
 	text-align:center;
 	padding-top:6px;
 	margin-right:20px;				
 }
-.menu_options a{
+.menu_options a
+{
 	color:#A6A8AD;
 	text-decoration:none;
 }
@@ -167,8 +155,7 @@ nav
 {
 	height:50px;
 	width:200px;
-	margin-left:42%;
-	
+	margin-left:42%;	
 }			
 .button_area2
 {
@@ -207,8 +194,7 @@ nav
 }	
 .main3
 {
-	height:350px;
-	
+	height:350px;	
 }
 .box1
 {
@@ -250,7 +236,6 @@ nav
 	margin-left:15px;
 	border-radius:14px;
 }
-
 .disc_main
 {
 	color:#9A9A9A;
@@ -318,7 +303,6 @@ nav
 	height:115vh;
 	padding-top:200px;
 }	
-
 .background_image4
 {
 	background-image:url("https://starlink.com/assets-new/images/landing/field/v4_residential_yard.webp");				
@@ -444,7 +428,6 @@ nav
 	font-size:12px;
 	color:#a6a5a6;
 	display:inline-block;
-
 }
 .part1_image
 {
@@ -460,7 +443,8 @@ nav
 	padding-top:5px;
 	margin-left:55px;
 }
-.part2 a{
+.part2 a
+{
 	text-decoration:none;
 	color:white;
 	font-size:14px;
